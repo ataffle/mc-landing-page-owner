@@ -1,7 +1,7 @@
 
 import { Button } from "@/components/ui/button";
 import { CardContent, Card } from "@/components/ui/card";
-import { Star } from "lucide-react";
+import { Star, Shield, FileText } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -41,6 +41,29 @@ const Hero = () => {
                 </div>
               </CardContent>
             </Card>
+            
+            <Card className="shadow-lg border-2 border-gray-100 bg-white max-w-xs mx-auto">
+              <CardContent className="p-4">
+                <div className="flex items-center gap-2">
+                  <div className="h-8 w-8 rounded-full bg-[#095BE1]/10 flex items-center justify-center text-[#095BE1]">
+                    <Shield className="h-4 w-4 text-[#095BE1]" />
+                  </div>
+                  <p className="text-sm font-medium">Protection contre les dégradations jusqu'à 3 000€</p>
+                </div>
+              </CardContent>
+            </Card>
+            
+            <Card className="shadow-lg border-2 border-gray-100 bg-white max-w-xs mx-auto">
+              <CardContent className="p-4">
+                <div className="flex items-center gap-2">
+                  <div className="h-8 w-8 rounded-full bg-[#095BE1]/10 flex items-center justify-center text-[#095BE1]">
+                    <FileText className="h-4 w-4 text-[#095BE1]" />
+                  </div>
+                  <p className="text-sm font-medium">Frais réduits de 4,5% TTC seulement en cas de location</p>
+                </div>
+              </CardContent>
+            </Card>
+            
             <div className="hidden md:block absolute -bottom-10 -right-10 w-40 h-40 bg-[#095BE1]/10 rounded-full z-[-1]" />
           </div>
         </div>
