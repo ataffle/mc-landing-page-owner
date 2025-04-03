@@ -12,7 +12,7 @@ const Navbar = () => {
       <div className="container mx-auto flex justify-between items-center px-4">
         <div className="flex items-center">
           <a href="/" className="flex items-center">
-            <img src="/logo.svg" alt="MorningCroissant" className="h-8" />
+            <img src="/lovable-uploads/f33ac6bc-8f7a-4ef5-afb2-a1237a7350e9.png" alt="MorningCroissant" className="h-8" />
           </a>
         </div>
 

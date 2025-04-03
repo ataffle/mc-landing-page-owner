@@ -32,13 +32,8 @@ const Hero = () => {
               </span>
             </div>
           </div>
-          <div className="relative">
-            <img 
-              src="/lovable-uploads/d087b4cd-24fc-45e6-8eb9-60eda99cf8f3.png"
-              alt="MorningCroissant interface" 
-              className="rounded-lg shadow-lg border border-gray-200 w-full"
-            />
-            <Card className="shadow-lg border-2 border-gray-100 bg-white absolute -bottom-10 -left-5 md:left-10 max-w-xs">
+          <div className="relative space-y-4">
+            <Card className="shadow-lg border-2 border-gray-100 bg-white max-w-xs mx-auto">
               <CardContent className="p-4">
                 <div className="flex items-center gap-2">
                   <div className="h-8 w-8 rounded-full bg-[#095BE1]/10 flex items-center justify-center text-[#095BE1]">✓</div>
