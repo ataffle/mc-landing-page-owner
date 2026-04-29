@@ -37,7 +37,7 @@ const Hero = () => {
               <CardContent className="p-4">
                 <div className="flex items-center gap-2">
                   <div className="h-8 w-8 rounded-full bg-[#095BE1]/10 flex items-center justify-center text-[#095BE1]">✓</div>
-                  <p className="text-sm font-medium">Garantie Loyers Impayés jusqu'à 90&nbsp;000€</p>
+                  <p className="text-sm font-medium">Garantie Loyers Impayés<br />jusqu'à 90&nbsp;000€</p>
                 </div>
               </CardContent>
             </Card>
